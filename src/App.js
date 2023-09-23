@@ -23,7 +23,7 @@ function App() {
       resultado: "Resultado:",
       diferencia: "Diferencia:",
       porcentajeCambio: "Porcentaje de Cambio:",
-      title: "Calculadora de Porcentajes",
+      title: "Calculadora de Porcentajes"
     },
     en: {
       primerNumeroPlaceholder: "First Number",
