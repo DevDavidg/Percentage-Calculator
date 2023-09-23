@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/online-percentage-calculator/static/css/main.d8e692c2.css",
+    "main.js": "/online-percentage-calculator/static/js/main.479e9ec9.js",
+    "static/js/787.8623e5e8.chunk.js": "/online-percentage-calculator/static/js/787.8623e5e8.chunk.js",
+    "index.html": "/online-percentage-calculator/index.html",
+    "main.d8e692c2.css.map": "/online-percentage-calculator/static/css/main.d8e692c2.css.map",
+    "main.479e9ec9.js.map": "/online-percentage-calculator/static/js/main.479e9ec9.js.map",
+    "787.8623e5e8.chunk.js.map": "/online-percentage-calculator/static/js/787.8623e5e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8e692c2.css",
+    "static/js/main.479e9ec9.js"
+  ]
+}
