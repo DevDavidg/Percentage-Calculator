@@ -1,0 +1,92 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.language-dropdown {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.language-dropdown select {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.language-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Estilos del formulario */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-container input,
+.form-container select,
+.form-container button {
+  width: 48%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container select {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos de los resultados */
+.result-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    width: 100%;
+  }
+}
