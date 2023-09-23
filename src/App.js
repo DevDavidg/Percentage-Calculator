@@ -122,6 +122,7 @@ function App() {
             placeholder={idiomaData.primerNumeroPlaceholder}
             value={state.valorOriginal}
             onChange={handleChange}
+            autoComplete="off"
           />
           <select name="operacion" onChange={handleChange} value={state.operacion}>
             <option value="porcentaje">{idiomaData.porcentaje}</option>
@@ -134,6 +135,7 @@ function App() {
             placeholder={idiomaData.segundoNumeroPlaceholder}
             value={state.segundoNumero}
             onChange={handleChange}
+            autoComplete="off"
           />
           <button type="submit" data-testid="btnCalcular">
             {idiomaData.calcular}
